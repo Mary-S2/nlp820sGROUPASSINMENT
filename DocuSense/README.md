@@ -285,7 +285,7 @@ nlp820sGROUPASSINMENT-main/
 #### Windows PowerShell:
 ```powershell
 # 1. Clone repository
-git clone https://github.com/AdamNoa/nlp820sGROUPASSINMENT.git
+git clone https://github.com/Adam-Noa-Dev/DocuSense.git
 cd nlp820sGROUPASSINMENT
 
 # 2. Create and activate virtual environment
@@ -300,7 +300,7 @@ pip install -r requirements.txt
 #### Linux / macOS:
 ```bash
 # 1. Clone repository
-git clone https://github.com/AdamNoa/nlp820sGROUPASSINMENT.git
+git clone https://github.com/Adam-Noa-Dev/DocuSense.git
 cd nlp820sGROUPASSINMENT
 
 # 2. Create and activate virtual environment
