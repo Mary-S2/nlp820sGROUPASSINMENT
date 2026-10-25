@@ -1,0 +1,248 @@
+{
+  "description": "DocuSense 30-Query Information Retrieval & Grounding Benchmark for BBC News",
+  "total_queries": 30,
+  "categories": ["business", "entertainment", "politics", "sport", "tech"],
+  "query_types": ["exact_keyword", "synonym_paraphrase", "conceptual_semantic", "entity_typo"],
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query": "worldcom fraud trial bernie ebbers",
+      "category": "business",
+      "query_type": "exact_keyword",
+      "relevant_article_ids": [1833],
+      "intent": "Find coverage of the WorldCom accounting fraud trial and Cynthia Cooper's testimony against Bernie Ebbers."
+    },
+    {
+      "query_id": "Q02",
+      "query": "european central bank leaves rate unchanged",
+      "category": "business",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [334, 1874, 90],
+      "intent": "Find central bank monetary decisions holding interest rates steady."
+    },
+    {
+      "query_id": "Q03",
+      "query": "indonesia turns down debt freeze offer",
+      "category": "business",
+      "query_type": "exact_keyword",
+      "relevant_article_ids": [70],
+      "intent": "Find reports on Indonesia declining the Paris Club creditor debt freeze."
+    },
+    {
+      "query_id": "Q04",
+      "query": "cost of borrowing money and inflation impact",
+      "category": "business",
+      "query_type": "conceptual_semantic",
+      "relevant_article_ids": [90, 1088, 1874],
+      "intent": "Find economic analysis on interest rates, monetary policy, and inflation targeting without exact keyword overlap."
+    },
+    {
+      "query_id": "Q05",
+      "query": "enron directors pay millions to settle lawsuit",
+      "category": "business",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [917],
+      "intent": "Find articles on former Enron board members agreeing to a $168m payout to settle shareholder litigation."
+    },
+    {
+      "query_id": "Q06",
+      "query": "china rapid economic growth and manufacturing expansion",
+      "category": "business",
+      "query_type": "conceptual_semantic",
+      "relevant_article_ids": [2002, 1561],
+      "intent": "Find coverage of China's breakneck GDP growth rate and industrial development."
+    },
+    {
+      "query_id": "Q07",
+      "query": "french director alan parker gets honoured by france",
+      "category": "entertainment",
+      "query_type": "exact_keyword",
+      "relevant_article_ids": [1797],
+      "intent": "Find reports on British filmmaker Sir Alan Parker receiving an honour from France for his contribution to cinema."
+    },
+    {
+      "query_id": "Q08",
+      "query": "did meet the fockers break christmas day box office records",
+      "category": "entertainment",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1866],
+      "intent": "Find box office reports detailing Meet the Fockers commercial earnings over the festive period."
+    },
+    {
+      "query_id": "Q09",
+      "query": "rapper snoop dogg sued for sexual assault by makeup artist",
+      "category": "entertainment",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1407],
+      "intent": "Find news about the lawsuit filed against Snoop Dogg by a former staff member."
+    },
+    {
+      "query_id": "Q10",
+      "query": "desperate housewives debut television audience viewing figures",
+      "category": "entertainment",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1153],
+      "intent": "Find Channel 4 television rating reports for the launch of US drama Desperate Housewives."
+    },
+    {
+      "query_id": "Q11",
+      "query": "irish rock band u2 wanting to top the album charts",
+      "category": "entertainment",
+      "query_type": "conceptual_semantic",
+      "relevant_article_ids": [342, 1167],
+      "intent": "Find music industry coverage on U2's commercial desire to achieve number one hit records."
+    },
+    {
+      "query_id": "Q12",
+      "query": "british actress patsy rowlands carry on films passing away",
+      "category": "entertainment",
+      "query_type": "exact_keyword",
+      "relevant_article_ids": [177],
+      "intent": "Find obituary of comedy actress Patsy Rowlands known for Carry On productions."
+    },
+    {
+      "query_id": "Q13",
+      "query": "noward truent snoker hall",
+      "category": "politics",
+      "query_type": "entity_typo",
+      "relevant_article_ids": [1582],
+      "intent": "Find story about Conservative leader Michael Howard admitting to playing truant at school to play snooker."
+    },
+    {
+      "query_id": "Q14",
+      "query": "soldsmith wasnt advised iraq war legality",
+      "category": "politics",
+      "query_type": "entity_typo",
+      "relevant_article_ids": [1683, 310, 93],
+      "intent": "Find coverage of Lord Goldsmith's legal advice on the legality of the Iraq invasion and Tony Blair's response."
+    },
+    {
+      "query_id": "Q15",
+      "query": "is the uk eu rebate up for negotiation",
+      "category": "politics",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1527, 1534],
+      "intent": "Find diplomatic reports on Britain's budget rebate dispute with Jacques Chirac and the European Union."
+    },
+    {
+      "query_id": "Q16",
+      "query": "secret government intelligence documents found discarded in street",
+      "category": "politics",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [2100],
+      "intent": "Find inquiry into sensitive counter-terrorism and policing documents discovered on a public road."
+    },
+    {
+      "query_id": "Q17",
+      "query": "conservatives proposal to introduce biometric identity cards",
+      "category": "politics",
+      "query_type": "conceptual_semantic",
+      "relevant_article_ids": [1518, 1297],
+      "intent": "Find parliamentary debate on the introduction of UK national ID cards and Tory party stance."
+    },
+    {
+      "query_id": "Q18",
+      "query": "public sector pensions strike dispute between civil servants and ministers",
+      "category": "politics",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1079],
+      "intent": "Find reports on union strike talks regarding raising retirement age for government employees."
+    },
+    {
+      "query_id": "Q19",
+      "query": "wenegr arsnal contrct",
+      "category": "sport",
+      "query_type": "entity_typo",
+      "relevant_article_ids": [1588],
+      "intent": "Find Arsenal manager Arsene Wenger signing a new long-term deal until May 2008."
+    },
+    {
+      "query_id": "Q20",
+      "query": "will ronaldo stay at man utd",
+      "category": "sport",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [811],
+      "intent": "Find Manchester United winger Cristiano Ronaldo discussing contract negotiations at Old Trafford."
+    },
+    {
+      "query_id": "Q21",
+      "query": "gerrard wants to stay at liverpool",
+      "category": "sport",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1525],
+      "intent": "Find Liverpool captain Steven Gerrard reiterating commitment to stay at Anfield and win silverware."
+    },
+    {
+      "query_id": "Q22",
+      "query": "ronan o gara injury time drop goal secures rugby victory",
+      "category": "sport",
+      "query_type": "exact_keyword",
+      "relevant_article_ids": [707],
+      "intent": "Find match report of Ireland defeating Argentina 21-19 in Dublin with a last-minute drop goal."
+    },
+    {
+      "query_id": "Q23",
+      "query": "serena williams rises in women tennis rankings",
+      "category": "sport",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1785],
+      "intent": "Find tennis reports on Serena Williams climbing to world number two after Australian Open success."
+    },
+    {
+      "query_id": "Q24",
+      "query": "sir alex ferguson demanding disciplinary action against thierry henry",
+      "category": "sport",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1617],
+      "intent": "Find Manchester United manager calling for an FA investigation into Arsenal striker Thierry Henry."
+    },
+    {
+      "query_id": "Q25",
+      "query": "microsoft tools to clean viruses and spyware",
+      "category": "tech",
+      "query_type": "exact_keyword",
+      "relevant_article_ids": [1439, 801],
+      "intent": "Find software news on Microsoft releasing tools to remove malicious trojans and adware from PCs."
+    },
+    {
+      "query_id": "Q26",
+      "query": "hi-tech thieves and malicious programs targeting personal computers",
+      "category": "tech",
+      "query_type": "conceptual_semantic",
+      "relevant_article_ids": [1186, 2095],
+      "intent": "Find analysis of modern cybercrime syndicates shifting from amateur viruses to organized digital extortion."
+    },
+    {
+      "query_id": "Q27",
+      "query": "playstation games based on harry potter",
+      "category": "tech",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [2205],
+      "intent": "Find Argonaut software company founder discussing video game adaptations of Harry Potter."
+    },
+    {
+      "query_id": "Q28",
+      "query": "japanese mobile phone responds to physical motion and gestures",
+      "category": "tech",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1552],
+      "intent": "Find handset technology news about accelerometer-enabled phones used for golf swing analysis."
+    },
+    {
+      "query_id": "Q29",
+      "query": "peer to peer file sharing networks surviving legal challenges",
+      "category": "tech",
+      "query_type": "conceptual_semantic",
+      "relevant_article_ids": [702],
+      "intent": "Find analysis on P2P file swapping protocols maintaining popularity despite recording industry lawsuits."
+    },
+    {
+      "query_id": "Q30",
+      "query": "vulnerabilities and security flaws in internet explorer browser",
+      "category": "tech",
+      "query_type": "synonym_paraphrase",
+      "relevant_article_ids": [1532],
+      "intent": "Find news on Microsoft engineering fixes and new version releases for Internet Explorer security flaws."
+    }
+  ]
+}

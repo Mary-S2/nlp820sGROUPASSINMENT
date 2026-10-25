@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Large temporary models, caches or duplicate downloads
+*.tmp
+*.log
+*.pkl
+*.index
+scratch/
+outputs/*.png
+outputs/*.csv
+data/*(3)*
+data/*(4)*
+data/*duplicate*
+
+# HuggingFace & Torch cache
+.cache/
+hf_cache/
+
+# Test caches and obsolete FAISS backup
+.pytest_cache/
+data/bbc_faiss.index.backup
+
+# Local backup data not required in GitHub
+data/backup/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment and secrets
+.venv/
+.env
+.env.*
+!.env.example

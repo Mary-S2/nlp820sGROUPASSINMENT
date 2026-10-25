@@ -1,0 +1,165 @@
+{
+  "benchmark_info": {
+    "name": "DocuSense 30-Query Information Retrieval & Grounding Benchmark",
+    "dataset": "BBC News (1,440 unique articles, 4,981 passages)",
+    "num_queries": 30,
+    "k": 5,
+    "evaluation_date": "2026-10-24"
+  },
+  "metric_comparison_table": [
+    {
+      "Metric": "Precision@1",
+      "TF-IDF": 0.6333,
+      "Semantic": 0.7333,
+      "Delta": 0.1
+    },
+    {
+      "Metric": "Precision@3",
+      "TF-IDF": 0.2889,
+      "Semantic": 0.3333,
+      "Delta": 0.0444
+    },
+    {
+      "Metric": "Precision@5",
+      "TF-IDF": 0.2,
+      "Semantic": 0.2467,
+      "Delta": 0.0467
+    },
+    {
+      "Metric": "Recall@5",
+      "TF-IDF": 0.7944,
+      "Semantic": 0.8667,
+      "Delta": 0.0723
+    },
+    {
+      "Metric": "Mean Reciprocal Rank (MRR)",
+      "TF-IDF": 0.74,
+      "Semantic": 0.8167,
+      "Delta": 0.0767
+    },
+    {
+      "Metric": "nDCG@5",
+      "TF-IDF": 0.7111,
+      "Semantic": 0.7984,
+      "Delta": 0.0873
+    }
+  ],
+  "tfidf_metrics": {
+    "method": "TF-IDF (Lexical Baseline)",
+    "total_queries": 30,
+    "mean_precision@1": 0.6333,
+    "mean_precision@3": 0.2889,
+    "mean_precision@5": 0.2,
+    "mean_recall@5": 0.7944,
+    "mrr": 0.74,
+    "mean_ndcg@5": 0.7111,
+    "category_metrics": {
+      "business": {
+        "mean_p@5": 0.233,
+        "mean_recall@5": 0.833,
+        "mean_mrr": 0.783
+      },
+      "entertainment": {
+        "mean_p@5": 0.2,
+        "mean_recall@5": 0.833,
+        "mean_mrr": 0.767
+      },
+      "politics": {
+        "mean_p@5": 0.167,
+        "mean_recall@5": 0.722,
+        "mean_mrr": 0.672
+      },
+      "sport": {
+        "mean_p@5": 0.2,
+        "mean_recall@5": 0.833,
+        "mean_mrr": 0.806
+      },
+      "tech": {
+        "mean_p@5": 0.2,
+        "mean_recall@5": 0.75,
+        "mean_mrr": 0.672
+      }
+    },
+    "type_metrics": {
+      "exact_keyword": {
+        "mean_p@5": 0.25,
+        "mean_recall@5": 0.917,
+        "mean_mrr": 0.889
+      },
+      "synonym_paraphrase": {
+        "mean_p@5": 0.2,
+        "mean_recall@5": 0.786,
+        "mean_mrr": 0.732
+      },
+      "conceptual_semantic": {
+        "mean_p@5": 0.167,
+        "mean_recall@5": 0.667,
+        "mean_mrr": 0.611
+      },
+      "entity_typo": {
+        "mean_p@5": 0.222,
+        "mean_recall@5": 0.889,
+        "mean_mrr": 0.833
+      }
+    }
+  },
+  "semantic_metrics": {
+    "method": "Semantic Embeddings (all-MiniLM-L6-v2 + FAISS)",
+    "total_queries": 30,
+    "mean_precision@1": 0.7333,
+    "mean_precision@3": 0.3333,
+    "mean_precision@5": 0.2467,
+    "mean_recall@5": 0.8667,
+    "mrr": 0.8167,
+    "mean_ndcg@5": 0.7984,
+    "category_metrics": {
+      "business": {
+        "mean_p@5": 0.267,
+        "mean_recall@5": 0.889,
+        "mean_mrr": 0.861
+      },
+      "entertainment": {
+        "mean_p@5": 0.233,
+        "mean_recall@5": 0.889,
+        "mean_mrr": 0.817
+      },
+      "politics": {
+        "mean_p@5": 0.233,
+        "mean_recall@5": 0.806,
+        "mean_mrr": 0.778
+      },
+      "sport": {
+        "mean_p@5": 0.267,
+        "mean_recall@5": 0.944,
+        "mean_mrr": 0.889
+      },
+      "tech": {
+        "mean_p@5": 0.233,
+        "mean_recall@5": 0.806,
+        "mean_mrr": 0.739
+      }
+    },
+    "type_metrics": {
+      "exact_keyword": {
+        "mean_p@5": 0.267,
+        "mean_recall@5": 0.917,
+        "mean_mrr": 0.889
+      },
+      "synonym_paraphrase": {
+        "mean_p@5": 0.257,
+        "mean_recall@5": 0.881,
+        "mean_mrr": 0.837
+      },
+      "conceptual_semantic": {
+        "mean_p@5": 0.233,
+        "mean_recall@5": 0.833,
+        "mean_mrr": 0.778
+      },
+      "entity_typo": {
+        "mean_p@5": 0.2,
+        "mean_recall@5": 0.778,
+        "mean_mrr": 0.722
+      }
+    }
+  }
+}
