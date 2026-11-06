@@ -130,4 +130,4 @@ The saved BERTopic run contains **9 topics and 20 outlier articles**, with topic
 - Maria Shikwambi
 - Adam Noa
 
-AI assistance was used during development, debugging, documentation and presentation preparation. The final report must include the project's actual AI-use reflection and the official Student AI Declaration, including human verification and corrections. This README does not certify that those report requirements or the remaining manual evaluations have been completed.
+AI assistance was used during development and debugging. The final report includes the project's details.
